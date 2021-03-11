@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "namespace": "com.project.kafka.avro",
+  "name": "Category",
+  "version": "1",
+  "fields": [
+    { "name": "name",
+      "type": "string",
+      "doc": "Category Name"
+    },
+    { "name": "imageUrl",
+      "type": "string",
+      "doc": "Category Image"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "namespace": "com.project.kafka.avro",
+  "name": "Product",
+  "version": "1",
+  "fields": [
+    { "name": "product_id", "type": "string", "doc": "Product Id" },
+    { "name": "name", "type": "string", "doc": "Product Name" },
+    { "name": "description", "type": "string", "doc": "Product Description" },
+    { "name": "price", "type": "float", "doc": "Product Price" },
+    { "name": "discount", "type": "float", "doc": "Product Discount Percentage", "default": "0.00"},
+    { "name": "date", "type": "long", "doc": "Product date" }
+  ]
+}
